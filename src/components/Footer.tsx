@@ -1,0 +1,10 @@
+export default function Footer() {
+  const year = new Date().getFullYear();
+  return (
+    <footer className="border-t border-(--border) py-8">
+      <div className="mx-auto max-w-5xl px-6 text-center text-sm text-(--muted)">
+        <p>© {year} Roger Wang</p>
+      </div>
+    </footer>
+  );
+}
